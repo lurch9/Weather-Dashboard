@@ -1,0 +1,68 @@
+*{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.bg-success{
+    background-color: #87CEEB;
+
+}
+.favorable{
+    display:inline-block;
+    background-color: green;
+    border-radius: 15%;
+}
+.moderate {
+    background-color: yellow;
+}
+.severe {
+    background-color: red;
+}
+.card {
+    border-style: double;
+}
+.nav {
+    display:flex;
+    margin-bottom: 5%;
+    width:100%;
+    justify-content:center;
+    background-image: url(background.jpg);
+    border-end-end-radius: 20%;
+    border-end-start-radius: 20%;
+}
+.searchBox {
+    margin-top: 5%;
+}
+.form-input {
+
+    margin-left: 6%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    max-width:80%;
+
+}
+.form-input:hover{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+ -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+-moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+transition: ease-in-out 0.3s;
+}
+#submit, #clearHistory{
+    margin-left:6%;
+}
+
+
+.btn, #submit, #clearHistory{
+    width:90%;
+    margin-bottom: 3%;
+    
+}
+.btn:hover{
+  
+ -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+-moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+transition: ease-in-out 0.3s;
+}
